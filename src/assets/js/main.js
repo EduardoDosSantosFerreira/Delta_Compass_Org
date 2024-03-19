@@ -10,7 +10,7 @@ function toggleDarkMode() {
   }
 // Dark Mode End
 
-// categoria
+// Categoria
 
 const categoriaLinks = document.querySelectorAll('.categoria-link');
 const projetos = document.querySelectorAll('#projetos > div');
