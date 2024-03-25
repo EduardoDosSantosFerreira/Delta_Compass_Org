@@ -24,6 +24,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
+  margin-right: -400px;
 }
 
 .nav-item {
@@ -261,4 +262,21 @@ body.dark-mode #fticon, #drx {
 }
 .dark-mode .list-inline-item a {
   color: black; /* Definir a cor dos links como preto no modo escuro */
+}
+.list-inline-item a {
+  color: white; /* Definir a cor dos links como branco */
+  text-decoration: none; /* Remover sublinhado dos links */
+  padding-right: 10px; /* Adicionar um espaçamento à direita para separá-los */
+}
+.list-inline-item {
+  list-style-type: none; /* Remover os pontos padrão */
+}
+.list-inline-item:before {
+  
+  content: '\2022'; /* Adicionar um caractere de bolinha */
+  color: white; /* Definir a cor da bolinha como branco */
+  display: inline-block;
+  width: 1em; /* Largura da bolinha */
+  margin-left: -1em; /* Margem negativa para alinhar a bolinha corretamente */
+  font-size: 1.5em; /* Tamanho da bolinha */
 }
